@@ -7,4 +7,6 @@ docker stop avicii-nginx || true
 
 docker rm avicii-nginx || true
 
-docker run --name avicii-nginx -d -p nginx:latest
+#deploy nginx
+
+docker run --name avicii-nginx -d -p nginx
