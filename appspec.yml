@@ -8,10 +8,10 @@ hooks:
    - location: scripts/Install-dependencies.sh
       timeout: 300
       runas: root
+  AfterInstall:
     - location: scripts/Delete_back_nginx.sh
       timeout: 300
       runas: root
-  AfterInstall:
     - location: scripts/Install_nginx.sh
       timeout: 300
       runas: root
