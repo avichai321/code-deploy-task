@@ -3,4 +3,4 @@
 #deploy nginx
 
 
-docker run --name avicii-nginx -d -p 8080:80 nginx:latest
+docker run --name avicii-nginx -d -p 80:80 nginx:latest
